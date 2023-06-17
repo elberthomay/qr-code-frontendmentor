@@ -7,7 +7,7 @@ body{
     height: 100vh;
     margin: 0;
 }
-.qr-container{
+main{
     width: 300px;
     font-family: 'Outfit', sans-serif;
     background-color: hsl(0, 0%, 100%);
@@ -15,26 +15,32 @@ body{
     border-radius: 20px;
 }
 
-.qr-container img{
+main img{
     width: 100%;
     border-radius: 10px;
 }
-.qr-container .text-container{
+main .text-container{
     padding: 0 1em 1em 1em;
     width: 100%;
     box-sizing: border-box;
     text-align: center;
 }
 
-.qr-container h1{
+main h1{
     font-weight: 700;
     font-size: 23px;
     color: hsl(218, 44%, 22%);
 }
 
-.qr-container p{
+main p{
     color: hsl(220, 15%, 55%);
     font-size: 15px;
     font-weight: 400;
     
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
 }
